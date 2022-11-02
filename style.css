@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: #121214;
+  background-image: url(./assets/bg.svg);
+  background-position-x: center;
+  background-position-y: 55%;
+}
+
+#app {
+  border: 1px solid red;
+  width: fit-content; /*encaixar conteudo*/
+  margin: 52px auto;
+}
+
+header {
+  margin-bottom: 63px;
+}
+
+.card {
+  border: 1px solid red;
+  padding: 32px 23px;
+  text-align: center;
+
+  background: #1d1c19;
+  border-bottom: 2px solid #f7dd43;
+  border-radius: 6px;
+}
+
+.card h2 {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+
+  padding: 8px 16px;
+  border: 1px solid #746615;
+  border-radius: 6px;
+
+  width: fit-content;
+  margin-inline: auto;
+  margin-bottom: 53px;
+
+  color: #f7dd43;
+}
+
+.card h2 span{
+  color: #e1e1e6;
+}
